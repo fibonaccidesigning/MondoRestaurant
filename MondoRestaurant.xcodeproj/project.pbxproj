@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EAF6C337268496E8C735301 /* Pods_MondoRestaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FCF932E772DAB901D7060 /* Pods_MondoRestaurant.framework */; };
+		B253752021FF07AD0041C6A3 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B253751F21FF07AD0041C6A3 /* CheckBox.swift */; };
+		B25B999221FB213F0028B1A8 /* FeedbackSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25B999121FB213F0028B1A8 /* FeedbackSecondViewController.swift */; };
 		B2841AA821F89B6E00FFD7D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2841AA721F89B6E00FFD7D1 /* AppDelegate.swift */; };
 		B2841AAA21F89B6E00FFD7D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2841AA921F89B6E00FFD7D1 /* ViewController.swift */; };
 		B2841AAD21F89B6E00FFD7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2841AAB21F89B6E00FFD7D1 /* Main.storyboard */; };
 		B2841AAF21F89B6F00FFD7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2841AAE21F89B6F00FFD7D1 /* Assets.xcassets */; };
 		B2841AB221F89B6F00FFD7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2841AB021F89B6F00FFD7D1 /* LaunchScreen.storyboard */; };
+		B2841ABA21F89DCC00FFD7D1 /* RestaurantDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2841AB921F89DCC00FFD7D1 /* RestaurantDataModel.swift */; };
+		B2841ABC21F8A30D00FFD7D1 /* StaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2841ABB21F8A30D00FFD7D1 /* StaffViewController.swift */; };
+		B2ACA80D21FEDDF6002E1F54 /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ACA80C21FEDDF6002E1F54 /* ThankyouViewController.swift */; };
+		B2C2CB8821FAD96100F5CBCA /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2CB8721FAD96100F5CBCA /* FeedbackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B0FCF932E772DAB901D7060 /* Pods_MondoRestaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MondoRestaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7411B8E44CA47189667F590A /* Pods-MondoRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoRestaurant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MondoRestaurant/Pods-MondoRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		B253751F21FF07AD0041C6A3 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		B253752121FF0F020041C6A3 /* MondoRestaurant-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MondoRestaurant-Bridging-Header.h"; sourceTree = "<group>"; };
+		B25B999121FB213F0028B1A8 /* FeedbackSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSecondViewController.swift; sourceTree = "<group>"; };
 		B2841AA421F89B6E00FFD7D1 /* MondoRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MondoRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2841AA721F89B6E00FFD7D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2841AA921F89B6E00FFD7D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,11 @@
 		B2841AAE21F89B6F00FFD7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2841AB121F89B6F00FFD7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2841AB321F89B6F00FFD7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2841AB921F89DCC00FFD7D1 /* RestaurantDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDataModel.swift; sourceTree = "<group>"; };
+		B2841ABB21F8A30D00FFD7D1 /* StaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewController.swift; sourceTree = "<group>"; };
+		B2ACA80C21FEDDF6002E1F54 /* ThankyouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
+		B2C2CB8721FAD96100F5CBCA /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		D4C3D62A6A225EEB194B115A /* Pods-MondoRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondoRestaurant.release.xcconfig"; path = "Pods/Target Support Files/Pods-MondoRestaurant/Pods-MondoRestaurant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAF6C337268496E8C735301 /* Pods_MondoRestaurant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F3AA0540E33DDC33F3053B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7411B8E44CA47189667F590A /* Pods-MondoRestaurant.debug.xcconfig */,
+				D4C3D62A6A225EEB194B115A /* Pods-MondoRestaurant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EDBE1DCD5E4F190BD640723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0FCF932E772DAB901D7060 /* Pods_MondoRestaurant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B25B998E21FADC6B0028B1A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2841AB921F89DCC00FFD7D1 /* RestaurantDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B25B998F21FADC7B0028B1A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2841AAB21F89B6E00FFD7D1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B25B999021FADC830028B1A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2841AA921F89B6E00FFD7D1 /* ViewController.swift */,
+				B2841ABB21F8A30D00FFD7D1 /* StaffViewController.swift */,
+				B2C2CB8721FAD96100F5CBCA /* FeedbackViewController.swift */,
+				B25B999121FB213F0028B1A8 /* FeedbackSecondViewController.swift */,
+				B2ACA80C21FEDDF6002E1F54 /* ThankyouViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		B2841A9B21F89B6E00FFD7D1 = {
 			isa = PBXGroup;
 			children = (
 				B2841AA621F89B6E00FFD7D1 /* MondoRestaurant */,
 				B2841AA521F89B6E00FFD7D1 /* Products */,
+				5F3AA0540E33DDC33F3053B1 /* Pods */,
+				7EDBE1DCD5E4F190BD640723 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +120,14 @@
 			isa = PBXGroup;
 			children = (
 				B2841AA721F89B6E00FFD7D1 /* AppDelegate.swift */,
-				B2841AA921F89B6E00FFD7D1 /* ViewController.swift */,
-				B2841AAB21F89B6E00FFD7D1 /* Main.storyboard */,
+				B25B998E21FADC6B0028B1A8 /* Model */,
+				B25B998F21FADC7B0028B1A8 /* View */,
+				B25B999021FADC830028B1A8 /* Controller */,
 				B2841AAE21F89B6F00FFD7D1 /* Assets.xcassets */,
 				B2841AB021F89B6F00FFD7D1 /* LaunchScreen.storyboard */,
 				B2841AB321F89B6F00FFD7D1 /* Info.plist */,
+				B253751F21FF07AD0041C6A3 /* CheckBox.swift */,
+				B253752121FF0F020041C6A3 /* MondoRestaurant-Bridging-Header.h */,
 			);
 			path = MondoRestaurant;
 			sourceTree = "<group>";
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2841AB621F89B6F00FFD7D1 /* Build configuration list for PBXNativeTarget "MondoRestaurant" */;
 			buildPhases = (
+				3B29CE62FEC8E0226B52EF26 /* [CP] Check Pods Manifest.lock */,
 				B2841AA021F89B6E00FFD7D1 /* Sources */,
 				B2841AA121F89B6E00FFD7D1 /* Frameworks */,
 				B2841AA221F89B6E00FFD7D1 /* Resources */,
+				DA0FB6D9998C7BD6A663938D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +166,7 @@
 				TargetAttributes = {
 					B2841AA321F89B6E00FFD7D1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,13 +201,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B29CE62FEC8E0226B52EF26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MondoRestaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0FB6D9998C7BD6A663938D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MondoRestaurant/Pods-MondoRestaurant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MondoRestaurant/Pods-MondoRestaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2841AA021F89B6E00FFD7D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B253752021FF07AD0041C6A3 /* CheckBox.swift in Sources */,
 				B2841AAA21F89B6E00FFD7D1 /* ViewController.swift in Sources */,
+				B2841ABA21F89DCC00FFD7D1 /* RestaurantDataModel.swift in Sources */,
 				B2841AA821F89B6E00FFD7D1 /* AppDelegate.swift in Sources */,
+				B2C2CB8821FAD96100F5CBCA /* FeedbackViewController.swift in Sources */,
+				B2841ABC21F8A30D00FFD7D1 /* StaffViewController.swift in Sources */,
+				B25B999221FB213F0028B1A8 /* FeedbackSecondViewController.swift in Sources */,
+				B2ACA80D21FEDDF6002E1F54 /* ThankyouViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +406,12 @@
 		};
 		B2841AB721F89B6F00FFD7D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7411B8E44CA47189667F590A /* Pods-MondoRestaurant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K2ZV59BZA;
 				INFOPLIST_FILE = MondoRestaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +419,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Parth.MondoRestaurant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MondoRestaurant/MondoRestaurant-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +428,12 @@
 		};
 		B2841AB821F89B6F00FFD7D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C3D62A6A225EEB194B115A /* Pods-MondoRestaurant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K2ZV59BZA;
 				INFOPLIST_FILE = MondoRestaurant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +441,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Parth.MondoRestaurant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MondoRestaurant/MondoRestaurant-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
